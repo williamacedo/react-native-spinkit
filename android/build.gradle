@@ -24,14 +24,13 @@ buildscript {
 }
 
 android {
-    compileSdkVersion  safeExtGet('compileSdkVersion', 23)
-    buildToolsVersion  safeExtGet('buildToolsVersion', "23.0.1")
-
+    compileSdkVersion 26
+    buildToolsVersion "26.0.3"
     defaultConfig {
-        minSdkVersion  safeExtGet('minSdkVersion', 16)
-        targetSdkVersion safeExtGet('targetSdkVersion', 23)
-        versionCode 1
-        versionName "1.0"
+            minSdkVersion 16
+            targetSdkVersion 26
+            versionCode 1
+            versionName "1.0"
     }
     buildTypes {
         release {
